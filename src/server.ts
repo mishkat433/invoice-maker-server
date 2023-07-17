@@ -6,8 +6,9 @@ async function bootstrap() {
     try {
         await mongoose.connect(config.DATABASE_URL as string)
         console.log('Database connected successfully');
-        app.listen(config.PORT, () => {
-            console.log(`Server is running at http://localhost:${config.PORT}`);
+
+        mongoose.connection.on("error", (error) => {
+            console.error('database connection error', error)
         })
     }
     catch (error) {
@@ -15,4 +16,8 @@ async function bootstrap() {
     }
 }
 
-bootstrap();
+app.listen(config.PORT, () => {
+    console.log(`Server is running at http://localhost:${config.PORT}`);
+    bootstrap();
+})
+
