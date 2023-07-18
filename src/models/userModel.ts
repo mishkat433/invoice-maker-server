@@ -43,6 +43,7 @@ const userSchema = new Schema({
     },
     image: {
         type: String,
+        default: '../../public/images/users/user.png'
     },
     address: {
         type: String,

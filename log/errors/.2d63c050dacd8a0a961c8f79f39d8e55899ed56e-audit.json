@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\errors\\.2d63c050dacd8a0a961c8f79f39d8e55899ed56e-audit.json",
+    "files": [
+        {
+            "date": 1689679346898,
+            "name": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\errors\\error-2023-07-18-17.log",
+            "hash": "583fa074d3b143b0ed2703b9f3641c31bed67eade2f95dc3f6ebdd3b8d785054"
+        },
+        {
+            "date": 1689681600969,
+            "name": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\errors\\error-2023-07-18-18.log",
+            "hash": "b572a25ac2953a4e4c307c688484b62e85536a0ecbaa93738ae294c2e056cf26"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,77 @@
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 0 : 0
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 0 : 8
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 1 : 5
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 1 : 10
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 1 : 50
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 1 : 54
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 2 : 18
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 2 : 23
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 10 : 12
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 10 : 18
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 10 : 24
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 10 : 28
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 11 : 48
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 11 : 52
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 12 : 31
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 12 : 37
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 15 : 14
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 15 : 22
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 16 : 23
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 16 : 28
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 17 : 4
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 17 : 7
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 17 : 19
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 17 : 23
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 18 : 20
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 18 : 25
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 19 : 32
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 19 : 38
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 19 : 57
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 20 : 1
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 23 : 13
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 23 : 20
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 23 : 25
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 23 : 28
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 23 : 33
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 23 : 36
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 25 : 27
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 25 : 34
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 26 : 9
+ [UM] [31merror[39m: failed to connect database The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string. Tue Jul 18 2023 6 : 26 : 9
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 26 : 21
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 26 : 25
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 27 : 56
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 28 : 3
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 29 : 38
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 29 : 41
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 29 : 45
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 29 : 47
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 29 : 51
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 30 : 22
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 30 : 26
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 30 : 48
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 30 : 54
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 31 : 23
+ [UM] [31merror[39m: failed to connect database The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string. Tue Jul 18 2023 6 : 31 : 23
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 31 : 25
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 31 : 28
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 31 : 32
+ [UM] [31merror[39m: failed to connect database The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string. Tue Jul 18 2023 6 : 31 : 32
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 31 : 58
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 32 : 4
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 32 : 8
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 32 : 11
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 32 : 41
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 32 : 46
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 33 : 13
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 33 : 17
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 33 : 28
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 33 : 33
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 33 : 37
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 33 : 41
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 33 : 56
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 34 : 0
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 36 : 14
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 36 : 21
+ [UM] [32minfo[39m: Server is running at http://localhost:5200 Tue Jul 18 2023 6 : 36 : 39
+ [UM] [32minfo[39m: Database connected successfully Tue Jul 18 2023 6 : 36 : 43
