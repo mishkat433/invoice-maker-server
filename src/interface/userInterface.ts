@@ -1,6 +1,15 @@
+import { Model } from "mongoose";
+
+
+
+export type UserName = {
+    firstName: string;
+    lastName: string;
+    middleName: string;
+};
 
 export type IUser = {
-    name: string,
+    name: UserName,
     email: string,
     phone: string,
     password: string,
@@ -9,7 +18,11 @@ export type IUser = {
     companyName: string,
     companyLogo: string,
     voucherName: string,
-    seallerSignature: string,
+    sealerSignature: string,
     isAdmin: boolean,
     isBanned: boolean,
 }
+
+
+
+export type UserModel = Model<IUser, object>;

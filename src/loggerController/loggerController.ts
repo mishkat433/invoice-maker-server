@@ -21,7 +21,7 @@ const logger = createLogger({
     level: 'info',
     format: combine(
         format.colorize(),
-        label({ label: 'UM' }),
+        label({ label: 'IM' }),
         timestamp(),
         myFormat,
         // prettyPrint()
@@ -42,7 +42,7 @@ const logger = createLogger({
 const errorLogger = createLogger({
     level: 'error',
     format: combine(
-        label({ label: 'UM' }),
+        label({ label: 'IM' }),
         timestamp(),
         myFormat
     ),

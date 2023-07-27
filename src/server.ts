@@ -1,7 +1,17 @@
 import mongoose from 'mongoose';
 import config from './config';
 import app from './app';
-import { logger } from './loggerController/loggerController';
+import { errorLogger, logger } from './loggerController/loggerController';
+import { Server } from 'http';
+
+
+process.on('uncaughtException', error => {
+    errorLogger.error(error);
+    process.exit(1);
+});
+
+
+let server: Server;
 
 async function bootstrap() {
     try {
@@ -15,6 +25,17 @@ async function bootstrap() {
     catch (error) {
         logger.error("failed to connect database", error);
     }
+
+    process.on('unhandledRejection', (err) => {
+        if (server) {
+            server.close(() => {
+                errorLogger.error(err)
+            })
+        }
+        else {
+            process.exit(1)
+        }
+    })
 }
 
 app.listen(config.PORT, () => {
@@ -22,3 +43,11 @@ app.listen(config.PORT, () => {
     bootstrap();
 })
 
+
+
+process.on('SIGTERM', () => {
+    logger.info('SIGTERM is detect, we are closing our server');
+    if (server) {
+        server.close();
+    }
+});

@@ -6,14 +6,69 @@
     "auditLog": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\errors\\.2d63c050dacd8a0a961c8f79f39d8e55899ed56e-audit.json",
     "files": [
         {
-            "date": 1689679346898,
-            "name": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\errors\\error-2023-07-18-17.log",
-            "hash": "583fa074d3b143b0ed2703b9f3641c31bed67eade2f95dc3f6ebdd3b8d785054"
+            "date": 1690439628116,
+            "name": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\errors\\error-2023-07-27-12.log",
+            "hash": "c12f1f3344b809fd3899822acba54cc17db52d2d2d0156c55343b32a65c76c58"
         },
         {
-            "date": 1689681600969,
-            "name": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\errors\\error-2023-07-18-18.log",
-            "hash": "b572a25ac2953a4e4c307c688484b62e85536a0ecbaa93738ae294c2e056cf26"
+            "date": 1690441593989,
+            "name": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\errors\\error-2023-07-27-13.log",
+            "hash": "8331a53c85944e3d6756c91e3f04e647c9f95949533cbcff08db23d82ece37bc"
+        },
+        {
+            "date": 1690445021986,
+            "name": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\errors\\error-2023-07-27-14.log",
+            "hash": "41d6e067c086e8c29083986295ec68ba85797cb295408a0524c72a684ab1776f"
+        },
+        {
+            "date": 1690448435100,
+            "name": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\errors\\error-2023-07-27-15.log",
+            "hash": "81f1928c4daa281e1e34c8e627bc572007cfcbbd5727b369f2b3a85d20e2631d"
+        },
+        {
+            "date": 1690452454624,
+            "name": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\errors\\error-2023-07-27-16.log",
+            "hash": "9b259c047d03936d659738b66b97ae0b4a98918b5a4ef6d674db8996c160fccb"
+        },
+        {
+            "date": 1690455608447,
+            "name": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\errors\\error-2023-07-27-17.log",
+            "hash": "482978f980701c3f5751d22da3ecfe4b3871d48ae96aae2a50b2e406c2b5eecf"
+        },
+        {
+            "date": 1690459243261,
+            "name": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\errors\\error-2023-07-27-18.log",
+            "hash": "bba369ee05b6f4a97f077528cfe750c7bf1c127add825d96c0492c05a5eb6a26"
+        },
+        {
+            "date": 1690463100235,
+            "name": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\errors\\error-2023-07-27-19.log",
+            "hash": "f7c824b22907c8ebf2d0da1893107394aa914da0173895c608acbb868f297cbf"
+        },
+        {
+            "date": 1690470507003,
+            "name": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\errors\\error-2023-07-27-21.log",
+            "hash": "5bdfd66cc08fb3fbc505e47df77af408ab5517e6c7e91b6b15834cc0d91831ca"
+        },
+        {
+            "date": 1690473622032,
+            "name": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\errors\\error-2023-07-27-22.log",
+            "hash": "3968e1c45927f5a15ef58ca5fb09a2fa985693b4c22ace2b0aab5d234e7ab7ed"
+        },
+        {
+            "date": 1690477934538,
+            "name": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\errors\\error-2023-07-27-23.log",
+            "hash": "9a34ab4d7f21c343d31d105fe88cf0cbe02471ec583b29e9b1dbb2259834ab30"
+        },
+        {
+            "date": 1690480849652,
+            "name": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\errors\\error-2023-07-28-00.log",
+            "hash": "17fe4d9b1252c165aaaf37d9f51db813c08468a180cfcc1cb03964b054ccddc6"
+        },
+        {
+            "date": 1690484480999,
+            "name": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\errors\\error-2023-07-28-01.log",
+            "hash": "34d70455ee30d2494daece0c38e7ee4b37c4340da7814ab2943a1a8c0b6991b0"
         }
     ],
     "hashType": "sha256"

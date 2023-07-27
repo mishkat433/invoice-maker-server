@@ -1,12 +1,21 @@
-import { Model, Schema, model } from "mongoose";
-import bcrypt from "bcrypt";
-import { IUser } from "../interface/userInterface";
+import { Schema, model } from "mongoose";
+import bcrypt from "bcryptjs";
+import { IUser, UserModel } from "../interface/userInterface";
 
-type UserModel = Model<IUser, object>;
+
 
 const userSchema = new Schema({
     name: {
-        type: String,
+        type: {
+            firstName: {
+                type: String,
+                required: true,
+            },
+            lastName: {
+                type: String,
+                required: true,
+            },
+        },
         required: [true, "User name is required"],
         trim: true,
         maxlength: [32, 'User name must be at least 3-32 characters'],
@@ -26,39 +35,45 @@ const userSchema = new Schema({
             message: 'Please enter a valid email address'
         }
     },
-    phone: {
-        type: String,
-    },
     password: {
         type: String,
-        required: [true, "password is required"],
         minlength: [6, 'User password must be minimum 6 characters'],
         validate: {
-            validator: function (password: string): boolean {
-                return /^(?=.*[A-Z][a-z])(?=.*)(?=.*[0-9])/.test(password)
+            validator: function (pass: string): boolean {
+                return /^(?=.*[A-Z][a-z])(?=.*)(?=.*[0-9])/.test(pass)
             },
             message: 'Please enter a valid password'
         },
-        set: (v: string | Buffer) => bcrypt.hashSync(v, bcrypt.genSaltSync(10))
+        required: [true, "password is required"],
+        set: (v: string) => bcrypt.hashSync(v, bcrypt.genSaltSync(10))
     },
+    phone: {
+        type: String,
+    },
+
     image: {
         type: String,
         default: '../../public/images/users/user.png'
     },
     address: {
         type: String,
+        default: null
     },
     companyName: {
         type: String,
+        default: null
     },
     companyLogo: {
         type: String,
+        default: null
     },
     voucherName: {
         type: String,
+        default: null
     },
-    sealerSignature: {
+    signature: {
         type: String,
+        default: null
     },
     isAdmin: {
         type: Boolean,
@@ -68,7 +83,11 @@ const userSchema = new Schema({
         type: Boolean,
         default: false
     }
-}, { timestamps: true })
+}, {
+    timestamps: true, toJSON: {
+        virtuals: true,
+    }
+})
 
 
 export const User = model<IUser, UserModel>('User', userSchema);
