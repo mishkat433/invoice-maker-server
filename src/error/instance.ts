@@ -22,3 +22,8 @@ export type IGenericResponse<T> = {
     },
     data: T
 }
+
+export type IGenericResponseWithCookies<T> = {
+    createAccessToken: string,
+    data: T
+}

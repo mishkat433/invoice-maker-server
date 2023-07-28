@@ -64,7 +64,7 @@ const crateUser = async (token: string): Promise<IUser> => {
 }
 
 
-const userFindById = async (id: string) => {
+const userFindById = async (id: string): Promise<IUser> => {
 
     const result = await User.findById(id, { password: 0 })
     if (!result) {

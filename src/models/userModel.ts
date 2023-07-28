@@ -42,13 +42,14 @@ const userSchema = new Schema({
             validator: function (pass: string): boolean {
                 return /^(?=.*[A-Z][a-z])(?=.*)(?=.*[0-9])/.test(pass)
             },
-            message: 'Please enter a valid password'
+            message: 'Password must be capital letter, small letter and number'
         },
         required: [true, "password is required"],
         set: (v: string) => bcrypt.hashSync(v, bcrypt.genSaltSync(10))
     },
     phone: {
         type: String,
+        default: null
     },
 
     image: {

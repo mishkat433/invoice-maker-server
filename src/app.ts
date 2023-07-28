@@ -4,12 +4,14 @@ import cors from "cors";
 import morgan from "morgan"
 import router from './config/routeManage';
 import globalErrorHandler from './error/globalErrorHandler';
+import cookieParser from "cookie-parser";
 // import httpStatus from 'http-status';
 
 
 app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
+app.use(cookieParser())
 
 app.use(morgan('dev')) //this package using we can see reqMethod, response code and response time
 
