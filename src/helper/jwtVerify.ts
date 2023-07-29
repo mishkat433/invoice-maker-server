@@ -22,7 +22,6 @@ const createJsonWebToken = (payload: Partial<IUser>, secretKey: string, expiresI
     catch (err) {
         throw new ApiError(httpStatus.BAD_REQUEST, "jwt token is not created")
     }
-
 }
 
 

@@ -79,7 +79,6 @@ export const getAllUser: RequestHandler = catchAsync(async (req: Request, res: R
 
     const paginationOptions = pick(req.query, paginationField)
 
-
     const result = await userServices.getAllUser(paginationOptions, filters)
 
     sendResponse<IUser[]>(res, {

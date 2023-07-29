@@ -1,7 +1,8 @@
 import express from 'express';
 import { userController } from '../controllers/userController';
-import validateRequest from '../error/validateRequest';
 import { userValidation } from '../zodValidation/userZodValidation';
+import validateRequest from '../validation/validateRequest';
+// import isLoggedIn from '../validation/isLoginValidation';
 const userRouter = express.Router();
 
 userRouter.get('/', userController.getAllUser);
