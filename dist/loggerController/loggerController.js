@@ -1,22 +1,16 @@
+"use strict";
 // import { createLogger, format, transports } from 'winston';
 // import path from "path";
 // const { combine, timestamp, label, printf } = format;
 // import DailyRotateFile from 'winston-daily-rotate-file';
-
-
 // // custom log format
 // const myFormat = printf(({ level, message, label, timestamp }) => {
-
 //     const date = new Date(timestamp);
 //     const hours = date.getHours();
 //     const minutes = date.getMinutes();
 //     const seconds = date.getSeconds();
-
 //     return ` [${label}] ${level}: ${message} ${date.toDateString()} ${hours % 12} : ${minutes} : ${seconds}`;
 // });
-
-
-
 // const logger = createLogger({
 //     level: 'info',
 //     format: combine(
@@ -38,7 +32,6 @@
 //         })
 //     ],
 // });
-
 // const errorLogger = createLogger({
 //     level: 'error',
 //     format: combine(
@@ -58,7 +51,4 @@
 //         })
 //     ],
 // });
-
-
-
 // export { logger, errorLogger };

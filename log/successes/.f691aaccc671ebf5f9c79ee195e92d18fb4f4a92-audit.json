@@ -6,11 +6,6 @@
     "auditLog": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\successes\\.f691aaccc671ebf5f9c79ee195e92d18fb4f4a92-audit.json",
     "files": [
         {
-            "date": 1690567249737,
-            "name": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\successes\\success-2023-07-29-00.log",
-            "hash": "4055a8011fc23a4516ba3b05485299df263995c8dbd99f42dcf78d8f6dc27e73"
-        },
-        {
             "date": 1690570876366,
             "name": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\successes\\success-2023-07-29-01.log",
             "hash": "17d3d47a55ac6ad149a50dbfee78c2652ac71f7a088bc0248689ce8c1516b31e"
@@ -49,6 +44,11 @@
             "date": 1690650407025,
             "name": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\successes\\success-2023-07-29-23.log",
             "hash": "6082466a6c4421ef60bf862ae17650e834dd50b368dbb09df36808e53552f2df"
+        },
+        {
+            "date": 1690654399946,
+            "name": "E:\\NextJs\\Invoice Maker\\invoice-maker-server\\log\\successes\\success-2023-07-30-00.log",
+            "hash": "cc22a7a9b79d56ff910dcef35353d5bba1d527a7105f9a0024142a25eeeb7233"
         }
     ],
     "hashType": "sha256"
